@@ -3,8 +3,9 @@ let inicio = '<div id="inicio_cont" class="cont">' +
     '<div id="big_nombre"><h1>Felipe<br>Muñiz Peña</h1><h1 class="el_punto">.</h1></div>' +
     '<p>Mientras estás leyendo esto me encuentro finalizando mi formación como desarrollador web a través de la Junta de Andalucía, ' +
     'a la vez que sigo aprendiendo por otros medios.</p>' +
-    '<p>A día de hoy me encuentro en la búsqueda de prácticas en una empresa o centro de trabajo, así como llevando a cabo mi proyecto de final de formación.<br></p>' +
-    '<a id="este_soy_yo" href="javascript:void(0);">Sobre mí.</a>' +
+    '<p>A día de hoy me encuentro en la búsqueda de prácticas, así como llevando a cabo mi proyecto de final de formación.<br></p>' +
+    '<a id="este_soy_yo" href="javascript:void(0);">Sobre mí.</a><br><br>' +
+    '<a id="este_soy_yo" href="./Felipe_Muniz_Pena_CV.pdf" target="_blank" rel="noopener noreferrer">CV.</a>' +
     '</div><img id="inicio_foto" src="foto_inicio.jpg" alt=":)"></div>';
 
 let sobre_mi = '<div id="sobre_mi_cont" class="cont">' +
@@ -20,21 +21,21 @@ let sobre_mi = '<div id="sobre_mi_cont" class="cont">' +
     'Durante varios años me formé como Ingeniero en Diseño Industrial y Desarrollo de Producto, pero decidí cambiar de ' +
     'dirección hacia algo que me generaba mucho más interés.<br><br>' +
     'Soy un apasionado de las matemáticas y, de alguna manera, el poder aplicarlas a las ' +
-    'metodologías y herramientas vinculadas a la programación, diseño web y análisis de datos ha sido para mí algo fundamental. ' +
+    'metodologías y herramientas vinculadas a la programación, diseño web y manipulación de datos ha sido para mí algo fundamental. ' +
     'Desde entonces he visto como mis ganas de aprender han ido a más y más hasta el día de hoy.<br><br>' +
     'Mientras estudiaba, he llevado a cabo varios trabajos en los últimos años que, si bien no se ' +
     'ubican en este marco laboral, me han enseñado a trabajar tanto en equipo como en solitario, y a tratar ' +
     'con clientes y compañeros. En ellos aprendí también que soy una persona con un grado de ' +
     'involucramiento muy alto, responsable y seria.<br><br>Si considero que puedo hacer algo, me ofrezco para ello. ' +
     'Si considero que no, aprendo hasta que deje que de ser así.<br><br>' +
-    'Actualmente me encuentro en la búsqueda de formación en un centro de trabajo o empresa.<br><br></p></div></div>';
+    'Actualmente me encuentro en la búsqueda de prácticas.<br><br></p></div></div>';
 
 let conocimientos = '<div id="conocimientos_cont" class="cont">' +
     '<h1>Conocimientos y <br>habilidades.</h1>' +
     '<p>Mediante lo aprendido tanto en mi formación académica como en aquella que realizo de manera paralela he aprendido a trabajar con múltiples herramientas:</p>' +
     '<ul id="lista_conocimientos"><li>Lenguajes como Java, Javascript, así como su uso con Node y React, Python, PHP, HTML y CSS.</li>' +
     '<li>Control de versiones y despliegue de aplicaciones web mediante Laravel.</li>' +
-    '<li>Creación, despliegue y manipulación de bases de datos, usando principalmente como sistema MySQL.</li>' +
+    '<li>Creación, despliegue y manipulación de bases de datos relacionales, usando principalmente como sistema MySQL.</li>' +
     '<li>Conocimiento avanzados de matemáticas y estadística.</li>' +
     '<li>Uso a nivel profesional de Adobe Illustrator y otros programas de diseño vectorial.</li>' +
     '<li>Nivel profesional de Inglés · Certificado Aptis C.</li></ul>' +
@@ -50,15 +51,15 @@ let contacto = '<div id="contacto_cont" class="cont">' +
     '<li>655-549-548</li>' +
     '<li>O, si lo prefieres, a través del formulario:</li></ul>' +
     '<div class="container">' +
-    '<form action="/action_page.php">' +
+
     '<label for="fname">Nombre y apellidos:</label>' +
     '<input type="text" id="fname" name="firstname" placeholder="">' +
     '<label for="email">E-mail:</label>' +
     '<input type="email" id="email" name="email" placeholder="">' +
     '<label for="subject">Cuéntame:</label>' +
     '<textarea id="subject" name="subject" placeholder="" style="height:100px"></textarea>' +
-    '<input type="submit" value="Enviar">' +
-    '</form></div></div>'
+    '<input type="submit" value="Enviar" id="enviar">' +
+    '</div></div>'
     ;
 
 $(document).ready(function () {
@@ -82,6 +83,8 @@ $(document).ready(function () {
             $(".el_punto").css("color", "black");
         }, 1400)
     }, 3000)
+
+
 });
 
 
@@ -136,4 +139,6 @@ function boton_espera() {
         })
     }, 100)
 }
+cv_
+
 
