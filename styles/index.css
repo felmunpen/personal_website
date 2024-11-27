@@ -32,7 +32,7 @@ body {
     bottom: 0;
     left: 0;
 
-    background-color: rgba(254, 198, 142, 0.957);
+    background-color: rgba(244, 212, 176, 0.957);
     background-image: url(/noise_light.svg);
 }
 
@@ -89,7 +89,7 @@ img {
     filter: contrast(100%) brightness(100%);
 
     background:
-        linear-gradient(0deg, rgba(177, 158, 122, 0.802), rgba(253, 162, 26, 0.58)),
+        linear-gradient(0deg, rgba(203, 185, 149, 0.802), rgba(248, 232, 214, 0.957)),
         url(/noise.svg);
 
     /* border: solid 10px brown; */
@@ -215,7 +215,7 @@ img {
 
 #inicio_foto {
     grid-column: 2/3;
-    width: 100%;
+    width: 90%;
     /*Rematar cuando esté la foto definida*/
     /* max-width: 280px; */
     /* max-height: 90%; */
