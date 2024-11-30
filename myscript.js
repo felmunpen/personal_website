@@ -43,23 +43,32 @@ let conocimientos = '<div id="conocimientos_cont" class="cont">' +
     '<p>Actualmente, en mi tiempo libre busco pequeños proyectos que poder llevar a cabo, como diseños de interfaces o programar música generativa mediante valores numéricos.<br><br><br></p>' +
     '</div>';
 
+// let contacto = '<div id="contacto_cont" class="cont">' +
+//     '<h1>Contacto.</h1>' +
+//     '<p>No dudes en ponerte en contacto conmigo por la vía que prefieras:</p>' +
+//     '<ul><li><a href="https://www.linkedin.com/in/felipe-muniz-pena/" target="_blank" rel="noopener noreferrer">Mi perfil</a> en LinkedIn</li>' +
+//     '<li>felmunpen@gmail.com</li>' +
+//     '<li>655-549-548</li>' +
+//     '<li>O, si lo prefieres, a través del formulario:</li></ul>' +
+//     '<div class="container">' +
+
+//     '<label for="fname">Nombre y apellidos:</label>' +
+//     '<input type="text" id="fname" name="firstname" placeholder="">' +
+//     '<label for="email">E-mail:</label>' +
+//     '<input type="email" id="email" name="email" placeholder="">' +
+//     '<label for="subject">Cuéntame:</label>' +
+//     '<textarea id="subject" name="subject" placeholder="" style="height:100px"></textarea>' +
+//     '<input type="submit" value="Enviar" id="enviar">' +
+//     '</div></div>'
+//     ;
+
 let contacto = '<div id="contacto_cont" class="cont">' +
     '<h1>Contacto.</h1>' +
     '<p>No dudes en ponerte en contacto conmigo por la vía que prefieras:</p>' +
     '<ul><li><a href="https://www.linkedin.com/in/felipe-muniz-pena/" target="_blank" rel="noopener noreferrer">Mi perfil</a> en LinkedIn</li>' +
     '<li>felmunpen@gmail.com</li>' +
     '<li>655-549-548</li>' +
-    '<li>O, si lo prefieres, a través del formulario:</li></ul>' +
-    '<div class="container">' +
-
-    '<label for="fname">Nombre y apellidos:</label>' +
-    '<input type="text" id="fname" name="firstname" placeholder="">' +
-    '<label for="email">E-mail:</label>' +
-    '<input type="email" id="email" name="email" placeholder="">' +
-    '<label for="subject">Cuéntame:</label>' +
-    '<textarea id="subject" name="subject" placeholder="" style="height:100px"></textarea>' +
-    '<input type="submit" value="Enviar" id="enviar">' +
-    '</div></div>'
+    '</div>'
     ;
 
 $(document).ready(function () {
